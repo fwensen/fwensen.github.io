@@ -80,7 +80,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
-    coding: git@github.com/fwensen/fwensen.github.io, hexo
-    github: git@github.com/fwensen/fwensen.github.io, hexo
+  repo: https://github.com/fwensen/fwensen.github.io, master
+  branch: master
 
+admin:
+    username: fwensen
+    deployCommand: './hexo-publish.sh'
